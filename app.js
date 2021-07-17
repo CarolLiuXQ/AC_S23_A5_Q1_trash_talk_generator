@@ -3,6 +3,7 @@ const app = express()
 const port = 3000
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
+const taskData = require('./config/taskData.json')
 
 app.use(express.static('public'))
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
