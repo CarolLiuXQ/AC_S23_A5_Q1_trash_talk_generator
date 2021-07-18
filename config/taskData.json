@@ -1,4 +1,9 @@
 {
+  "occupation": {
+    "engineer": "工程師",
+    "designer": "設計師",
+    "entrepreneur": "創業家"
+  },
   "task": {
     "engineer": [
       "加個按鈕",
